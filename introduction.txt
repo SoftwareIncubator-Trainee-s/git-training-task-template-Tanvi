@@ -4,3 +4,5 @@ Domain: Web Developer / Software Developer
 College: AKGEC
 Year: 2nd Year
 
+Skills: C Language,C++(learning) HTML, CSS, JavaScript, Git & GitHub
+Hobbies: Coding, Reading, Exploring New Tech
