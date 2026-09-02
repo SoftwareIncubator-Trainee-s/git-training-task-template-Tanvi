@@ -90,3 +90,80 @@ body {
     color: #888;
     font-size: 0.85rem;
 }
+
+.bento-card {
+    background-color: var(--card-bg);
+    border-radius: 18px;
+    padding: 3rem;
+    display: flex;
+    gap: 2.5rem;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35);
+}
+
+.card-left {
+    flex: 1.2;
+}
+
+.card-right {
+    flex: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-heading {
+    font-size: 0.75rem;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    color: var(--text-muted);
+    text-transform: uppercase;
+}
+
+.main-heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.4rem;
+    color: var(--text-dark);
+    margin-bottom: 1.2rem;
+    font-weight: 700;
+}
+
+.info-block {
+    margin-bottom: 1.2rem;
+}
+
+.info-block h3 {
+    font-size: 1.05rem;
+    margin-bottom: 0.3rem;
+    color: var(--accent-dark);
+}
+
+.info-block p {
+    color: var(--text-muted);
+    font-size: 0.92rem;
+}
+
+.bullet-list {
+    padding-left: 1.2rem;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+.bullet-list li {
+    margin-bottom: 0.3rem;
+}
+
+.arch-frame {
+    width: 210px;
+    height: 300px;
+    border-radius: 105px 105px 12px 12px;
+    overflow: hidden;
+    border: 2px solid var(--accent-dark);
+    background: var(--bg-dark);
+}
+
+.arch-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
